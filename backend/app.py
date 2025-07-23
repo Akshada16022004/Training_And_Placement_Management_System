@@ -31,7 +31,7 @@ app.config['SECRET_KEY'] = 'your-unique-secret-key'
 app.config["JWT_SECRET_KEY"] = "your_secret_key"
 jwt = JWTManager(app)
 
-GEMINI_API_KEY = "AIzaSyCVp40VbNxEyiQ2Nk0xioMH8LCty1eoYSU"  # Replace with your Gemini API Key
+GEMINI_API_KEY =your-unique-gemini-key  # Replace with your Gemini API Key
 
 genai.configure(api_key=GEMINI_API_KEY)
 models = genai.list_models()
